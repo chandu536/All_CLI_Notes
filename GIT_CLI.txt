@@ -1,0 +1,13 @@
+$ git clone https://github.com/libgit2/libgit2
+1. git init
+2. git add 
+
+1.git status
+2.git add <fileName>
+3.git diff  or git diff --staged
+4.git commit  /  git commit -v / git commit -m "my first commit"
+5.git commit -a -m 'New changes' --> to commit without staging, included all changed files
+6.git rm --cached webapp\readme.txt --> to remove a file from staging
+7.git push origin main ( execute this command to push changes to remote directory from local directory aftetr commit statement)
+8.git add . -> adds all files to staging area
+

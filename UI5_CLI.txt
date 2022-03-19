@@ -1,0 +1,5 @@
+1. npm install --global @ui5/cli
+2. ui5 -help
+3. npm i -g yo   ( Yeoman is a scaffolding technique: yeoman.io/generators )
+4. npm i -g genarator-anubhav-basicfiori
+5. npm install

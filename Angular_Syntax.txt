@@ -1,0 +1,10 @@
+<p>{{varname/method}}<p> --> string interpolation
+<button [disabled]='!allowServerName'> --> Property binding
+<button (click)='onclear()'> --> event hanlder (  this.updatedServerName = (<HTMLInputElement>event.target).value; )
+<input [(ngModel)]='method' > ---> toway binding
+<p *ngIf=''>  -> directives  <p *ngIf="directiveExample">{{updatedServerName}}</p> ( <P> present only bind value is true )
+<p [ngStyle]="{'backgroundColor':getColor()}"> --> Dynamic Styling Element ( serverStatus = Math.random() > 0.5 ? 'online' : 'offline' )
+
+<p [ngClass]="{'online':serverStatus === 'online' }"> Server Status:{{ serverStatus }}</p>
+<app-server *ngFor="let server of servers"></app-server>  --> for creating dynamic servers example
+<div *ngFor="let c of clicksArray;let i = index" [ngStyle]="{ backgroundColor: c >= 5 ? 'blue' : 'transparent' }" [ngClass]="{'white-text': c >= 5 ? true : false }" >{{c}}</div>
